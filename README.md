@@ -1,4 +1,4 @@
-Loan Underwriting Prediction System (ML + Flask)
+# Loan Underwriting Prediction System (ML + Flask)
 
 A production-ready demo that predicts loan approvals using an Ensemble Voting Classifier (Random Forest + Gradient Boosting), wrapped in a simple Flask web app. It supports Excel uploads, real-time predictions, downloadable results, and explainability with SHAP.
 
