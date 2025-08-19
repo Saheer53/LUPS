@@ -1,0 +1,110 @@
+/* General styling */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f8f9fa; /* Light gray background for professional look */
+    margin: 0;
+    padding: 0;
+}
+
+/* Container styling */
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+/* Table styling */
+table {
+    width: 100%;
+    border-collapse: separate;
+    border-spacing: 0;
+    background-color: #ffffff; /* White table background */
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+}
+
+thead {
+    background-color: #343a40; /* Professional dark header */
+    color: #ffffff; /* White text */
+}
+
+thead th {
+    padding: 10px;
+    font-size: 16px;
+    text-align: left;
+}
+
+tbody tr {
+    border-bottom: 1px solid #ddd; /* Row separation */
+}
+
+tbody td {
+    padding: 10px;
+    font-size: 14px;
+    text-align: left;
+}
+
+/* Styling for row colors based on loan approval */
+tbody tr.approved {
+    background-color: #e6f4ea; /* Light green for approved */
+}
+
+tbody tr.rejected {
+    background-color: #f8d7da; /* Light red for rejected */
+}
+
+tbody tr:hover {
+    background-color: #f1f1f1; /* Subtle hover effect */
+}
+
+/* Explanation styling */
+td.explanation {
+    font-size: 13px;
+    line-height: 1.5;
+    color: #495057;
+}
+
+/* Upload page styling */
+.upload-container {
+    margin: 20px auto;
+    text-align: center;
+    padding: 40px;
+    background-color: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.upload-container h1 {
+    font-size: 28px;
+    margin-bottom: 20px;
+    color: #343a40;
+}
+
+.upload-container input[type="file"] {
+    margin-top: 15px;
+    padding: 10px;
+    font-size: 14px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.upload-container button {
+    margin-top: 20px;
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.upload-container button:hover {
+    background-color: #0056b3;
+}
+
+/* Center alignment */
+.centered {
+    text-align: center;
+}
